@@ -4,6 +4,8 @@ Problem Statement: A solution/idea that can boost the current situation of the t
 
 This repository hosts the source code for a Railway Reservation website developed using HTML, CSS, and JavaScript. The website aims to provide users with a seamless and user-friendly experience for booking and managing railway reservations
 
+<img src ="travelimg.png">
+
 ```mermaid
 graph TD;
     style A fill:#b3ccff,stroke:#333,stroke-width:2px;
