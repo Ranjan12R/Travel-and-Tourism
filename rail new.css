@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 * {
   margin: 0px;
   padding: 0px;
@@ -93,7 +94,7 @@ html {
 }
 
 .dropbtn {
-  background: linear-gradient(135deg, #2b3f42, #355973);
+  background: linear-gradient(135deg, #ff751a, #ff944d);
   color: #fff;
   padding: 6px 6px;
   border: none;
@@ -104,7 +105,7 @@ html {
   cursor: pointer;
 }
 .btn {
-  background: linear-gradient(135deg, #2b3f42, #355973);
+  background: linear-gradient(135deg, #ff751a, #ff944d);
   margin: 0px 5px;
   padding: 6px 14px;
   border-radius: 9px;
@@ -113,11 +114,11 @@ html {
   color: #fff;
 }
 .dropbtn:hover {
-  background: linear-gradient(135deg, #2b3f42, #355973);
+  background: linear-gradient(135deg, #ff751a, #ff944d);
   cursor: pointer;
 }
 .btn:hover {
-  background: linear-gradient(135deg, #355973, #2b3f42);
+  background: linear-gradient(135deg, #ffccb3, #ffaa80);
   cursor: pointer;
   transition: background 0.3s ease;
 }
@@ -273,7 +274,7 @@ h2 {
   padding: 3px;
 }
 .service img:hover {
-  background-color: rgb(116, 207, 238);
+  background-color: rgb(238, 219, 200);
 }
 .services {
   float: left;
@@ -293,111 +294,6 @@ h2 {
   height: 300px;
   display: inline;
   width: 100%;
-}
-.box1 {
-  height: 450px;
-  width: 300px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
-  margin-top: 5px;
-  border: 1px solid rgb(207, 217, 222);
-  max-width: 100%;
-  overflow: auto;
-  padding-left: 25px;
-  padding-top: 20px;
-  padding-left: auto;
-  margin-left: 40px;
-  border-radius: 20px;
-}
-
-.box1,
-.box2,
-.box3,
-.box4 {
-  float: left;
-  margin-right: 20px;
-  display: block;
-}
-
-.box1 img {
-  width: 200px;
-  margin-top: 0%;
-  margin-bottom: 0%;
-}
-.box1 video {
-  width: 200px;
-  margin-top: 0%;
-}
-.box2 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
-  width: 50%;
-  height: 450px;
-  text-align: center;
-  border-color: rgb(207, 217, 222);
-  border: 2px;
-  padding: 10px 20px;
-  border-radius: 12px;
-  overflow: hidden;
-  margin-top: 5px;
-}
-
-.Important {
-  font-size: 23px;
-  font-weight: 700;
-  line-height: 28px;
-}
-.box2-content {
-  margin-bottom: 40px;
-}
-.box2 ul {
-  list-style: none;
-}
-.box2 ul li p span {
-  color: #6699ff;
-  font-weight: bold;
-  text-decoration: none;
-  line-height: 2;
-}
-.box2 ul li p {
-  text-align: justify;
-}
-#more {
-  float: inline-end;
-  margin-right: 10px;
-  margin-top: 30px;
-  background-color: #005580;
-  padding: 10px;
-  border-bottom-right-radius: 20px;
-  transition: all 0.3s;
-}
-#more a {
-  color: white;
-}
-#more:hover {
-  background-color: #1b313c;
-}
-
-.box3 {
-  height: 450px;
-  width: 300px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
-  margin-top: 5px;
-  border: 1px solid rgb(207, 217, 222);
-  max-width: 100%;
-  overflow: auto;
-  padding-left: 25px;
-  padding-top: 20px;
-  padding-left: auto;
-  border-radius: 20px;
-  float: left;
-}
-.box3 img {
-  width: 200px;
-  margin-top: 0%;
-  margin-bottom: 0%;
-}
-.box3 video {
-  width: 200px;
-  margin-top: 0%;
 }
 .mycard1,
 .mycard2 {

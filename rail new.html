@@ -11,8 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <link rel="stylesheet" href="Chat.css">
 
 
 </head>
@@ -52,18 +52,8 @@
         <div class="slide-container active">
             
                 <div class="slide">
-                    <div class="content">
-                        <h3>Welcome to Yatra Travels: Where Every Journey is an Adventure</h3>
-                        <p>
-                            Namaste! 🌐🌍
-                            <br>
-                            At Yatra Travels and Tourism, we believe that every journey is an adventure waiting to unfold. Whether you're
-                            exploring new destinations or revisiting your favorite spots, we're here to make your travel
-                            experience extraordinary.
-                        </p>
-                        <a href="#" class="btn">Know More</a>
-                    </div>
-                    <video src="y2mate.bz - Welcome to India ! [CINEMATIC TRAVEL FILM].mp4" muted autoplay
+                    
+                    <video src="Travel Agency Video Template (Editable) (online-video-cutter.com).mp4" muted autoplay
                     loop></video>
                     
                 </div>
@@ -71,7 +61,7 @@
             
             <div class="slide-container">
                 <div class="slide">
-                    <div class="content">
+                    <!-- <div class="content">
                         <h3>Welcome to Yatra Flights : Fly With Us</h3>
                         <p>
                             Namaste! ✈️🌍
@@ -82,9 +72,9 @@
                             
                         </p>
                         <a href="#" class="btn">Know More</a>
-                    </div>
+                    </div> -->
                     
-                    <video src="landing_-_32945 (Original).mp4" muted loop autoplay></video>
+                    <video src="y2mate.bz - Welcome to India ! [CINEMATIC TRAVEL FILM].mp4 " muted loop autoplay></video>
                 </div>
             </div>
             
@@ -120,76 +110,99 @@
                         YatraWheels is your trusted partner for seamless cab and bus bookings, making your daily
                         commutes or inter-city travels a breeze. Whether you're heading to work or planning a weekend
                         getaway, we're here to ensure your journey is comfortable and stress-free.
-
+                        
                     </p>
                     <a href="#" class="btn" >Know More</a>
                 </div>
-
+                
                 <video src="168811 (1440p).mp4" muted autoplay loop></video>
             </div>
         </div>
         <div id="next" onclick="next()"> > </div>
         <div id="prev" onclick="prev()"> < </div>
-        </div>
-        <!-- Javascript -->
-        <script>
-            let slides = document.querySelectorAll('.slide-container')
-            let index = 0;
-
-            function next() {
-                slides[index].classList.remove('active');
-                index = (index + 1) % slides.length;
-                slides[index].classList.add('active');
-
-            }
-
-            function prev() {
-                slides[index].classList.remove('active');
-                index = (index - 1 + slides.length) % slides.length;
-                slides[index].classList.add('active');
-            }
-
+    </div>
+    <!-- Javascript -->
+    <script>
+        let slides = document.querySelectorAll('.slide-container')
+        let index = 0;
+        
+        function next() {
+            slides[index].classList.remove('active');
+            index = (index + 1) % slides.length;
+            slides[index].classList.add('active');
+            
+        }
+        
+        function prev() {
+            slides[index].classList.remove('active');
+            index = (index - 1 + slides.length) % slides.length;
+            slides[index].classList.add('active');
+        }
+        
         </script>
 
-        <div class="shortcut">
-            <h2 class="heading">Have you not found the right one?</h2>
-            <h2>Find a service suitable for you here.</H2>
-            <div class="service">
-                <div class="services">
-                    <li><a href="flightbooking.html"><img src="flight_FILL0_wght400_GRAD0_opsz24.png" alt=""></a></li>
-                    <div class="logoname">Flight</div>
-                </div>
-                <div class="services">
-                    <li><a href=""><img src="trending_up_FILL0_wght400_GRAD0_opsz24.png" alt=""></a></li>
-                    <div class="logoname">Trends</div>
-                </div>
-                <div class="services">
-                    <li><a href=""><img src="hotel_FILL0_wght400_GRAD0_opsz24.png" alt=""></a></li>
-                    <div class="logoname">Hotel</div>
-                </div>
-                <div class="services">
-                    <li><a href=""><img src="restaurant_FILL0_wght400_GRAD0_opsz24.png" alt=""></a></li>
-                    <div class="logoname">Food</div>
-                </div>
-                <div class="services">
-                    <li><a href=""><img src="travel_explore_FILL0_wght400_GRAD0_opsz24.png" alt=""></a></li>
-                    <div class="logoname">Explore</div>
-                </div>
-                <div class="services">
-                    <li><a href=""><img src="train_FILL0_wght400_GRAD0_opsz24.png" alt=""></a></li>
-                    <div class="logoname">TOURIST<BR>TRAINS</div>
+<div class="shortcut">
+    <h2 class="heading">Have you not found the right one?</h2>
+    <h2>Find a service suitable for you here.</H2>
+        <div class="service">
+            <div class="services">
+                <li><a href="flightbooking.html"><img src="flight_FILL0_wght400_GRAD0_opsz24.png" alt=""></a></li>
+                <div class="logoname">Flight</div>
+            </div>
+            <div class="services">
+                <li><a href=""><img src="trending_up_FILL0_wght400_GRAD0_opsz24.png" alt=""></a></li>
+                <div class="logoname">Trends</div>
+            </div>
+            <div class="services">
+                <li><a href=""><img src="hotel_FILL0_wght400_GRAD0_opsz24.png" alt=""></a></li>
+                <div class="logoname">Hotel</div>
+            </div>
+            <div class="services">
+                <li><a href=""><img src="restaurant_FILL0_wght400_GRAD0_opsz24.png" alt=""></a></li>
+                <div class="logoname">Food</div>
+            </div>
+            <div class="services">
+                <li><a href=""><img src="travel_explore_FILL0_wght400_GRAD0_opsz24.png" alt=""></a></li>
+                <div class="logoname">Explore</div>
+            </div>
+            <div class="services">
+                <li><a href=""><img src="train_FILL0_wght400_GRAD0_opsz24.png" alt=""></a></li>
+                <div class="logoname">TOURIST<BR>TRAINS</div>
                 </div>
                 <div class="services">
                     <li><a href=""><img src="landscape_FILL0_wght400_GRAD0_opsz24.png" alt=""></a></li>
                     <div class="logoname">HILL<BR>TRAINS</div>
-                </div>
-                <div class="services">
-                    <li><a href=""><img src="health_and_safety_FILL0_wght400_GRAD0_opsz24.png" alt=""></a></li>
-                    <div class="logoname">HEALTH</div>
+                    </div>
+                    <div class="services">
+                        <li><a href=""><img src="health_and_safety_FILL0_wght400_GRAD0_opsz24.png" alt=""></a></li>
+                        <div class="logoname">HEALTH</div>
+                    </div>
                 </div>
             </div>
         </div>
+        
+        <script src="Chat.js" defer></script>
+        
+        <button class="chatbot-toggler">
+            <span class="material-symbols-rounded">Ask Us</span>
+    <span class="material-symbols-outlined">Close</span>
+  </button>
+  <div class="chatbot">
+    <header>
+      <h2>Chatbot</h2>
+      <span class="close-btn material-symbols-outlined">close</span>
+    </header>
+    <ul class="chatbox">
+      <li class="chat incoming">
+        <span class="material-symbols-outlined">smart_toy</span>
+        <p>Hi there 👋<br>How can I help you today?</p>
+      </li>
+    </ul>
+    <div class="chat-input">
+      <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+      <span id="send-btn" class="material-symbols-rounded">send</span>
     </div>
+  </div>
 
     </div>
     <div class="whole-card">
@@ -201,7 +214,7 @@
                 <img src="Houseboat on Dal Lake.jpg.avif" alt="travel place">
             </div>
             <div class="card-content">
-                <h3>Kashmir 5N</h3>
+                <h3>Kashmir 5K</h3>
 
                 <p>"Kashmir: Beauty meets tranquility, a timeless embrace of nature's grace."</p>
                 <p><button class="btn-book" onclick="prompt('Booking For Ladakh: Enter Your Budget')">Book Now
@@ -214,7 +227,7 @@
                 <img src="ZF.jpg.avif" alt="travel place">
             </div>
             <div class="card-content">
-                <h3>Goa 5N</h3>
+                <h3>Goa 5K</h3>
 
                 <p>"Goa: The sun, sand, and smiles create a symphony of joy and happiness."</p>
                 <p><button class="btn-book" onclick="prompt('Booking For Ladakh: Enter Your Budget')">Book Now
@@ -227,9 +240,9 @@
                 <img src="Munnar.avif" alt="travel place">
             </div>
             <div class="card-content">
-                <h3>Munnar 5N</h3>
+                <h3>Munnar 5K</h3>
 
-                <p>"Munnar: Hills whisper tales, and tea gardens weave dreams."</p>
+                <p>"Munnar: Hills whisper tales, and tea gardens weave dreams. Join the cool sea breeze."</p>
                 <p><button class="btn-book" onclick="prompt('Booking For Ladakh: Enter Your Budget')">Book Now
                         <span>></span></button></p>
             </div>
@@ -240,7 +253,7 @@
                 <img src="Zanskar.jpg.avif" alt="travel place">
             </div>
             <div class="card-content">
-                <h3>Ladakh 5N</h3>
+                <h3>Ladakh 5K</h3>
 
                 <p>"Ladakh: Mountains converse with the sky, and serenity echoes in every breath."</p>
                 <p><button class="btn-book" onclick="prompt('Booking For Ladakh: Enter Your Budget')">Book Now
@@ -256,7 +269,7 @@
                 <div class="footer-col">
                     <h4><span>YATRA</span>.com</h4>
                     <ul>
-                        <li><a href="#">about us</a></li>
+                        <li><a href="#">About us</a></li>
                         <li><a href="#">FAQ</a></li>
                         <li><a href="#">Terms of use</a></li>
                         <li><a href="#">affiliate program</a></li>
@@ -289,6 +302,7 @@
                         <a href="#"><i class="fab fa-twitter"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
                         <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        
                     </div>
                 </div>
             </div>
